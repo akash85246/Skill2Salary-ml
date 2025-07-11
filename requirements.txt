@@ -6,16 +6,3 @@ matplotlib
 joblib
 scipy
 xgboost
-streamlit-ace
-streamlit-lottie
-streamlit-option-menu
-streamlit-aggrid
-streamlit-extras
-streamlit-plotly-events
-streamlit-embedcode
-streamlit-logger
-streamlit-plotly-events
-streamlit-folium
-streamlit-ace
-streamlit-lottie
-streamlit-option-menu       
