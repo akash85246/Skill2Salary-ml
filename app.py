@@ -1,18 +1,14 @@
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 import numpy as np
 import datetime
 
 # Load saved model, encoder, selector, and column order
-with open("./model/model.pkl", "rb") as f:
-    model = pickle.load(f)
-with open("./model/oe.pkl", "rb") as f:
-    oe = pickle.load(f)
-with open("./model/selector.pkl", "rb") as f:
-    selector = pickle.load(f)
-with open("./model/columns.pkl", "rb") as f:
-    column_order = pickle.load(f)  
+model = joblib.load("./model/model.pkl")
+oe = joblib.load("./model/oe.pkl")
+selector = joblib.load("./model/selector.pkl")
+column_order = joblib.load("./model/columns.pkl")
 
 def averageScore(score1, score2):
     return (score1 + score2) / 2
