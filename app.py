@@ -5,13 +5,13 @@ import numpy as np
 import datetime
 
 # Load saved model, encoder, selector, and column order
-with open("model/model.pkl", "rb") as f:
+with open("./model/model.pkl", "rb") as f:
     model = pickle.load(f)
-with open("model/oe.pkl", "rb") as f:
+with open("./model/oe.pkl", "rb") as f:
     oe = pickle.load(f)
-with open("model/selector.pkl", "rb") as f:
+with open("./model/selector.pkl", "rb") as f:
     selector = pickle.load(f)
-with open("model/columns.pkl", "rb") as f:
+with open("./model/columns.pkl", "rb") as f:
     column_order = pickle.load(f)  
 
 def averageScore(score1, score2):
