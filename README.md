@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://Skill2Salary-ml-qrv8.onrender.com/)
+[![Product Name Screen Shot][product-screenshot]](https://skill2salary.streamlit.app/)
 
 Skill2Salary is a smart salary prediction platform designed to help users estimate their expected salary based on educational background, work experience, and job preferences. Powered by machine learning, the app uses real-world data to make informed predictions and guide users in career planning.
 
